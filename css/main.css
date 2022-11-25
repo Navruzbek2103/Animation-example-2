@@ -113,4 +113,29 @@ ul{
   left: 50%;
 }
 
+.success{
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  transform: translateX(200%);
+  transition: all .5s ease-in;
+}
+.success-box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.success-title{
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 54px;
+  font-weight: bold;
+}
+
 
