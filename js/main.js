@@ -10,9 +10,13 @@ setTimeout(() => {
   $(".wrapper-box-img").addEventListener("click", () => {
     title.play()
   })
-  
+  // $("body").addEventListener("click", (e)=> {
+  //   console.log(e);
+  // })
+
   $("body").addEventListener("mousedown", (e) =>{
     $("#button1").style.position = "absolute"
+    
     if(e.target == $("#button1")){
   
       locationEqual = $("#button1");
